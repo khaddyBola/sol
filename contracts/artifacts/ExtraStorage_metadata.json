@@ -1,0 +1,161 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_favColor",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_hobbies",
+						"type": "string"
+					}
+				],
+				"name": "addPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "nameToFavoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "people",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "favoriteNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "favColor",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "hobbies",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExtraStorage.sol": "ExtraStorage"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExtraStorage.sol": {
+			"keccak256": "0x6610d8626b9098107d881fa2cfbfca8c759d73f2da37138f63eeeb118315545f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://70b5d871c4f58b7640a4a20fa3250c8ef7a6e9ae4b4cf0a3fc2bc4fdda0f7286",
+				"dweb:/ipfs/Qma3Wu1L3iLZu3qBHrHFgqiKbqeici5DNkcAfmmVpe1mDz"
+			]
+		},
+		"contracts/SimpleStorage.sol": {
+			"keccak256": "0x80177ee7afbc8d73d96eaeaed13f1878bc9ab1dc4b9cddfbc102257958219cb9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b68e14c295485a4e9e52e3d7a6b8c8e3cd25f92a8ad47adbdf658a9a3e1eff57",
+				"dweb:/ipfs/Qmahy2oQGbjQuzrsBZV3Xc6DAmi7pCfPYBAdS7ecQwgCdP"
+			]
+		}
+	},
+	"version": 1
+}

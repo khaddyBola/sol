@@ -19,7 +19,7 @@ contract SimpleStorage {
     //Array
     People[] public people;
 
-    function store(uint256 _favoriteNumber) public {
+    function store(uint256 _favoriteNumber) public virtual {
         favoriteNumber = _favoriteNumber;
         // uint256 testVar = 5;
         // favoriteNumber = _favoriteNumber + 1;
