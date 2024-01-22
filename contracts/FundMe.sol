@@ -8,7 +8,7 @@ pragma solidity ^0.8.8;
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 
 contract FundMe {
-    uint256 public minimumUsd = 50;
+    uint256 public minimumUsd = 5;
 
     function fund() public payable {
         // want to be able to set a minimum fund amount in USD
