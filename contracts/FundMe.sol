@@ -21,7 +21,7 @@ contract FundMe {
         AggregatorV3Interface priceFeed = AggregatorV3Interface(0x694AA1769357215DE4FAC081bf1f309aDC325306);
         (,int256 price,,,) = priceFeed.latestRoundData(); 
         // ETH IN TERMS OF USD
-        // 3000.0000000b
+        // 3000.0000000
 
         return uint256(price * 1e10); // 1**10 == 10000000000
     }
