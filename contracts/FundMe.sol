@@ -20,7 +20,6 @@ contract FundMe {
         constructor(){
             owner = msg.sender;
         }
-    
 
     function fund() public payable {
         require(msg.value.getConversionRate() >= minimumUsd, "Didn't send enough!"); //1e18 == 1 * 10 ** 18 == 1000000000000
