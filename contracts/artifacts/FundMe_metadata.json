@@ -70,7 +70,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "i_owner",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -125,11 +125,11 @@
 			]
 		},
 		"contracts/FundMe.sol": {
-			"keccak256": "0xbbcd4e3e38aa0899cff5c4541c09771acc7ab15cf11f18f8e8ec555dd9fce4f6",
+			"keccak256": "0x7494d133e90648017a37128622572a5ce15529bdcc291a4751db7d74a2f3503b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e01f8753a479d0cd5dec6ff5a60ef51a0a504887d65955ed0af77699973f6e12",
-				"dweb:/ipfs/QmWkUmzzeSNk11TAkxv4QBrfw5arN8gk1bHTqgQRqSgnUD"
+				"bzz-raw://dd2669842b0544d338c660ca1bc02c8771c2025a9e605df0f206733f85ccbc58",
+				"dweb:/ipfs/QmbxYYU7EvEmaEpLsPwvZQreKjUdw3dtxSVjf5HvFpBgFm"
 			]
 		},
 		"contracts/PriceConverter.sol": {
