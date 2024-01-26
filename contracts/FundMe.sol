@@ -61,3 +61,11 @@ contract FundMe {
     }
 }
 
+// 1. Enums
+// 2. Events
+// 3. Try / Catch
+// 4. Function Selectors
+// 5. abi.encode / decode
+// 6. Hashing
+// 7. Yul / Assumbly
+
