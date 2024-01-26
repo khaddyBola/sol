@@ -52,7 +52,12 @@ contract FundMe {
 
     // What happens if someone sends this correct ETH without calling the fund funders
 
-    // recieve()
-    // fallback()
+    receive() external payable {
+        fund();
+    }
+
+    fallback() external payable {
+        fund();
+    }
 }
 
