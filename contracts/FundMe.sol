@@ -52,13 +52,20 @@ contract FundMe {
 
     // What happens if someone sends this correct ETH without calling the fund funders
 
-    receive() external payable {
+    receive() external payable{
         fund();
     }
 
     fallback() external payable {
         fund();
     }
+    // receive() external payable {
+    //     fund();
+    // }
+
+    // fallback() external payable {
+    //     fund();
+    // }
 }
 
 // 1. Enums
